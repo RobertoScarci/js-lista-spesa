@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-color: rgb(92, 230, 230);
+    color: green;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 2rem;
+}
