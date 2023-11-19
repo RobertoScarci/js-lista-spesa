@@ -1,4 +1,4 @@
-const shoppingList = [
+const marketList = [
     'Latte senza lattosio',
     'Uova',
     'Pasta',
@@ -9,11 +9,12 @@ const shoppingList = [
     'Yogurt senza lattosio'
 ];
 
-const output = document.getElementById("output");
+const output = document.getElementById('output');
 
-for (let i = 0; i < shoppingList.length; i++) {
+for (let i = 0; i < marketList.length; i++) {
     
     const li = document.createElement('li');
-    li.textContent = shoppingList[i];
+    li.textContent = marketList[i];
+    
     output.append(li);
 }
